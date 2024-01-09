@@ -10,7 +10,7 @@ function Card({ card }) {
       />
       <div className="flex flex-col gap-2">
         <h1 className="text-4xl font-bold text-grayish-blue ">{card.number}</h1>
-        <h2 className="cursor-pointer text-xl font-semibold text-dark-blue hover:text-soft-red">
+        <h2 className="cursor-pointer text-xl font-semibold text-dark-blue hover:text-soft-red active:opacity-50">
           {card.title}
         </h2>
         <p className="w-[95%] text-grayish-blue">{card.desc}</p>

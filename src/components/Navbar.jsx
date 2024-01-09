@@ -12,7 +12,7 @@ function Navbar() {
   }, []);
   return (
     <nav className="flex h-fit w-full max-w-[1440px] items-center justify-between gap-5 py-10 max-sm:py-[5%]">
-      <img src={logo} alt="news logo" width={55} height={58} />
+      <img className='logo' src={logo} alt="news logo" width={55} height={58} />
       <ul
         className={`sm:links-desk max-sm:links-mobile ${
           isOpen
@@ -21,27 +21,27 @@ function Navbar() {
         }`}
       >
         <li className="max-sm:pl-8">
-          <a href="/News-homepage-main/" className="hover:text-soft-red">
+          <a href="/NEWS-HOMEPAGE/" className="hover:text-soft-red">
             Home
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/News-homepage-main/" className="hover:text-soft-red">
+          <a href="/NEWS-HOMEPAGE/" className="hover:text-soft-red">
             News
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/News-homepage-main/" className="hover:text-soft-red">
+          <a href="/NEWS-HOMEPAGE/" className="hover:text-soft-red">
             Popular
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/News-homepage-main/" className="hover:text-soft-red">
+          <a href="/NEWS-HOMEPAGE/" className="hover:text-soft-red">
             Trending
           </a>
         </li>
         <li className="max-sm:pl-8">
-          <a href="/News-homepage-main/" className="hover:text-soft-red">
+          <a href="/NEWS-HOMEPAGE/" className="hover:text-soft-red">
             Categories
           </a>
         </li>
